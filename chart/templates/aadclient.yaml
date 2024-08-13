@@ -1,0 +1,6 @@
+apiVersion: client.aad.alliander.com/v1beta1
+kind: AadClient
+metadata:
+  name: aadclient-s2s
+spec:
+  impersonateAppByApim: false
